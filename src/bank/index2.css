@@ -1,0 +1,320 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: #444;
+  background-color: #f3f3f3;
+  line-height: 1.9;
+  font-weight: 300;
+}
+.container1 {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.container2 {
+  width: 65%;
+  visibility: visible;
+  opacity: 100;
+  transition: all 350ms ease-in 20ms;
+}
+.container3 {
+  width: 65%;
+  visibility: visible;
+  opacity: 100;
+  transition: all 140ms ease-in 20ms;
+}
+/***************header***************/
+.header-style {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header p {
+  font-size: 2rem;
+}
+header img {
+  width: 5rem;
+  height: 5rem;
+}
+.input-header1 {
+  font-size: 1.5rem;
+  text-align: center;
+  width: 10rem;
+  height: 3.2rem;
+  border-radius: 2rem;
+  border-width: 0;
+  margin: 0 0.2rem;
+  outline: red;
+}
+.input-header2 {
+  font-size: 1.5rem;
+  text-align: center;
+  width: 10rem;
+  height: 3.2rem;
+  border-radius: 2rem;
+  border-width: 0;
+  margin: 0 0.2rem;
+  outline: red;
+}
+.input-header::placeholder {
+  color: #9d9d9dfc;
+}
+input {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.button-header {
+  border-width: 0;
+  font-size: 2.5rem;
+  cursor: pointer;
+} /***************main******************/
+main {
+  margin: 5rem auto 0 auto;
+}
+/***********section-main-part-1*********/
+.header-main {
+  display: flex;
+  justify-content: space-between;
+}
+.header-main-left {
+  display: flex;
+  flex-direction: column;
+}
+.header-main-text-right {
+  font-size: 3rem;
+}
+.header-main-text-left {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.header-main-text-left-2 {
+  font-size: 1.4rem;
+  margin-top: -0.5rem;
+  color: #9d9d9dfc;
+}
+.grid-section-2 {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 560px 420px;
+  grid-template-rows: repeat(3, auto);
+  grid-row-gap: 10px;
+}
+
+.item1 {
+  background-color: rgb(255, 255, 255);
+  border-radius: 0.5rem;
+  grid-row: 1/4;
+  height: 466px;
+  overflow: scroll;
+}
+.item12 {
+  display: flex;
+  align-items: center;
+  padding: 1.2rem 2rem;
+  border-bottom: 1px solid rgb(238, 238, 238);
+}
+.item1-number {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  margin-right: 1rem;
+  padding: 0.1rem 0.5rem;
+  border-radius: 10rem;
+}
+.item1-number-positive {
+  background-image: linear-gradient(
+    to left top,
+    rgb(57, 179, 133),
+    rgb(155, 225, 93)
+  );
+}
+.item1-number-negative {
+  background-image: linear-gradient(
+    to left top,
+    rgb(229, 42, 90),
+    rgb(255, 88, 95)
+  );
+}
+.item1-date {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: rgb(102, 102, 102);
+}
+.item1-money {
+  font-size: 1.7rem;
+  margin-left: auto;
+}
+.item2 {
+  background-image: linear-gradient(
+    to left top,
+    rgb(255, 176, 3),
+    rgb(255, 203, 3)
+  );
+  border-radius: 0.5rem;
+}
+.item21 {
+  width: 80%;
+  margin: 1.5rem auto;
+}
+.item2-text-header {
+  text-align: start;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+.item2-div-input {
+  display: flex;
+  margin-top: 0.5rem;
+  gap: 10px;
+}
+.item2-input {
+  text-align: center;
+  width: 45%;
+  height: 2rem;
+  border-width: 0;
+  border-radius: 0.5rem;
+  background-color: #ffffff63;
+}
+.item2-button {
+  background-color: #f3f3f3;
+  border-radius: 0.5rem;
+  border-width: 0;
+  font-size: 1.7rem;
+  padding: 0rem 1rem;
+  cursor: pointer;
+}
+.item2-text-down {
+  display: flex;
+  font-size:1.3rem;
+  font-weight: 300;
+  justify-content: start;
+  margin-left: 2.2rem;
+  gap: 5.5rem;
+}
+
+.item3 {
+  background-image: linear-gradient(
+    to left top,
+    rgb(57, 179, 133),
+    rgb(155, 225, 93)
+  );
+  border-radius: 0.5rem;
+}
+
+.item3-input {
+  text-align: center;
+  width: 45%;
+  height: 2rem;
+  border-width: 0;
+  border-radius: 0.5rem;
+  background-color: #ffffff63;
+}
+
+.item3-button {
+  background-color: #f3f3f3;
+  border-radius: 0.5rem;
+  border-width: 0;
+  font-size: 1.7rem;
+  padding: 0rem 1rem;
+  cursor: pointer;
+}
+.item3-text-down {
+  font-size: 1.3rem;
+  font-weight: 300;
+  margin-left: 3.3rem;
+}
+
+.item4 {
+  background-image: linear-gradient(
+    to left top,
+    rgb(229, 42, 90),
+    rgb(255, 88, 95)
+  );
+  border-radius: 0.5rem;
+}
+.item4-input1 {
+  text-align: center;
+  width: 45%;
+  height: 2rem;
+  border-width: 0;
+  border-radius: 0.5rem;
+  background-color: #ffffff63;
+}
+.item4-input2 {
+  text-align: center;
+  width: 45%;
+  height: 2rem;
+  border-width: 0;
+  border-radius: 0.5rem;
+  background-color: #ffffff63;
+}
+.item4-button {
+  background-color: #f3f3f3;
+  border-radius: 0.5rem;
+  border-width: 0;
+  font-size: 1.7rem;
+  padding: 0rem 1rem;
+  cursor: pointer;
+}
+.item4-text-down {
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: 300;
+  justify-content: start;
+  margin-left: 2rem;
+  gap: 4.2rem;
+}
+/***********footer************/
+footer {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem auto 0rem auto;
+}
+.footer-div-item {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+.footer-text {
+  font-size: 1.3rem;
+}
+.footer-in-money {
+  font-size: 2rem;
+  color: rgb(99, 225, 93);
+}
+.footer-out-money {
+  font-size: 2rem;
+  color: rgb(225, 93, 93);
+}
+.footer-interest-money {
+  font-size: 2rem;
+  color: rgb(99, 225, 93);
+}
+.footer-sort {
+  display: flex;
+  height: 2rem;
+  align-items: end;
+  border-width: 0rem;
+  cursor: pointer;
+  font-size: 1.3rem;
+  text-align: center;
+}
+.time {
+  font-size: 1.3rem;
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
