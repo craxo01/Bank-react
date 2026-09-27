@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Bank-react/static/css/main.c0ddb703.css",
-    "main.js": "/Bank-react/static/js/main.5a141612.js",
+    "main.js": "/Bank-react/static/js/main.9ff7a03d.js",
     "static/media/card.jpg": "/Bank-react/static/media/card.10658f8229d31da9ef62.jpg",
     "static/media/hero.png": "/Bank-react/static/media/hero.155e8260fa5028b09e6f.png",
     "static/media/digital.jpg": "/Bank-react/static/media/digital.b3f14c0247a86054d880.jpg",
@@ -9,10 +9,10 @@
     "static/media/grow.jpg": "/Bank-react/static/media/grow.b9130134f816e3657e62.jpg",
     "index.html": "/Bank-react/index.html",
     "main.c0ddb703.css.map": "/Bank-react/static/css/main.c0ddb703.css.map",
-    "main.5a141612.js.map": "/Bank-react/static/js/main.5a141612.js.map"
+    "main.9ff7a03d.js.map": "/Bank-react/static/js/main.9ff7a03d.js.map"
   },
   "entrypoints": [
     "static/css/main.c0ddb703.css",
-    "static/js/main.5a141612.js"
+    "static/js/main.9ff7a03d.js"
   ]
 }
