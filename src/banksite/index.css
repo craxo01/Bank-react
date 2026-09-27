@@ -551,8 +551,12 @@ h4 {
 
 /* FOOTER */
 .footer {
+  display: flex;
+  flex-direction: column;
   padding: 2rem 3rem;
   background-color: #37383d;
+ margin: 0;
+ padding-top: 5rem;
 }
 
 .footer__nav {
